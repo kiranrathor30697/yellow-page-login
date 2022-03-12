@@ -14,31 +14,43 @@
 
 </head>
 <body>
-  <section class="k_form p-5 k_border" style="margin:26px auto">
-      <h3>Easy one tap sign in</h3>
+  <section class="k_section offset-4 col-3 p-4 k_border mt-5">
+      <h3 class="text-center">Easy one tap sign in</h3>
 
-      <a href="" class="p-3">
-        <div class="k_fb k_box ps-5 pt-1">
-          <img src="img/icon-facebook.png">
-        </div>
-      </a>
-      <a href="" class="">
-        <div class="k_box ps-5 pt-1">
-          <img src="img/icon-google.png">
-        </div>
-      </a>
+      <div class="pt-3">
+        <a href="" class="k_logo ">
+          <div class="k_fb k_box ps-5 pt-1 rounded-1">
+            <img src="img/icon-facebook.png" class="p-3">
+            <h4 class="fs-6 k_inlineblock">Continue with Facebook</h4>
+          </div>
+        </a>
+      </div>
+
+      <div class="pt-3">
+        <div class="pt-3 ">
+        <a href="" class="k_logo">
+          <div class="k_box ps-5 pt-1 rounded-1">
+            <img src="img/icon-google.png" class="p-3">
+            <h4 class="fs-6 k_inlineblock">Continue with Google</h4>
+          </div>
+        </a>
+      </div>
+      <div class="form-text mt-2">We don't post/share without your permission.</div>
+      
       <hr >
-      <form class="">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <span class="mt-2 fs-5">Or log in with your email:</span>
+      <form class="mt-3">
+        <div class="mb-3 input-group-lg">
+          <input type="email" class="form-control rounded-0 p-2" name="email" id="exampleInputEmail1" placeholder="Email">
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="mb-3 input-group-lg">
+          <input type="password" class="form-control rounded-0" name="password" id="password" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <a href="#" class="K_text_decoration">Forgate Password?</a>
+        <div class="d-grid gap-2 mt-3">
+          <button type="submit" class="btn btn-primary ">Submit</button>
+        </div>
     </form>
   </section>
 </body>
