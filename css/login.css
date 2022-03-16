@@ -27,11 +27,8 @@
 .k_hover:hover {
     color: #555555 !important;
 }
-.kkk{
-    width: 700px !important;
-}
 @media only screen and (max-width: 300px) {
-    .k_box,mt-5,row,offset-3{
+    body > form,footer{
         display: none;
     }   
 }
@@ -55,7 +52,7 @@
 }
 @media only screen and (min-width: 767px) {
     body{
-        width: 50% !important;
+        width: 30% !important;
         margin: 0px auto !important;
     }
     .row ,offset-4,col-4,p-4,k_border,mt-5{
