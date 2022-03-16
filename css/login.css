@@ -1,3 +1,6 @@
+.k_bg2{
+    background-color: #f7f7f7;
+}
 .k_border{
     border: 1px solid #eeeeee;
 }
@@ -23,6 +26,9 @@
 }
 .k_hover:hover {
     color: #555555 !important;
+}
+.kkk{
+    width: 700px !important;
 }
 @media only screen and (max-width: 300px) {
     .k_box,mt-5,row,offset-3{

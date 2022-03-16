@@ -12,9 +12,6 @@
     font-weight: 700;
     color:#067ab4;
 }
-.k_footerbottom{
-    min-height:409px;
-}
 .k_a{
     color:#555 !important;
     font-size: 0.9em;
@@ -26,7 +23,6 @@
 }
 .k_bg2{
     background-color: #f7f7f7;
-    width:800px !important;
 }
 .k_box1{
     width:20.5%;
@@ -53,7 +49,4 @@
     font-size:1em;
     text-decoration: none !important;
     padding:5px 5px;
-}
-.k_footer{
-    width:100% !important;
 }

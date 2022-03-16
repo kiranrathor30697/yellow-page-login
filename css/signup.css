@@ -53,7 +53,7 @@
         margin: 0px auto !important;
         padding: 0px !important;
         }
-      body{
+      body > form{
         width: 100% !important;
         margin: 0px !important;
         }    
@@ -64,5 +64,8 @@
 @media only screen and (min-width: 767px) {
     .mt-3,k_login_form{
         width: 50% !important;
+    }
+    body > footer {
+        width: 100% !important
     }   
 }     
