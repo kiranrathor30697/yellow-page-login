@@ -24,3 +24,20 @@
 .k_hover:hover {
     color: #555555 !important;
 }
+@media only screen and (max-width: 300px) {
+    .k_box,mt-5,row,offset-3{
+        display: none;
+    }   
+}
+@media only screen and (min-width: 300px) {
+    .text-center,error_msg{
+        display: none;
+    }   
+}
+@media only screen and (max-width: 767px) {
+    
+        body{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+}
