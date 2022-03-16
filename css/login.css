@@ -51,7 +51,7 @@
     }
 }
 @media only screen and (min-width: 767px) {
-    body{
+    .mt-3,k_login_form,k_border,p-3{
         width: 30% !important;
         margin: 0px auto !important;
     }
