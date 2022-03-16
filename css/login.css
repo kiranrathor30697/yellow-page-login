@@ -47,7 +47,7 @@
         padding: 2px !important;
     }
 }
-@media only screen and (max-width:541px) and (min-width: 720px) {
+@media only screen and (min-width:541px) and (max-width: 720px) {
     form{
         width: 40% !important;
         margin: 0px auto !important;
@@ -59,7 +59,7 @@
         padding: 0px !important;
     }
 }
-@media only screen and (max-width: 721px) and (min-width: 960px) {
+@media only screen and (min-width: 721px) and (max-width: 960px) {
     form{
         width: 40% !important;
         margin: 0px auto !important;
