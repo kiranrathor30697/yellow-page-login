@@ -65,8 +65,5 @@
 @media only screen and (min-width: 767px) {
     .mt-3,k_login_form{
         width: 50% !important;
-    }    
-    /*.p-2,k_top{
-        padding: 0px !important;
-    }  */  
-    }     
+    }   
+}     
