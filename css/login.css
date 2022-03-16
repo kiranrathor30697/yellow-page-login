@@ -46,14 +46,14 @@
         margin: 0px auto !important;
         padding: 2px !important;
     }
-    .mt-3,k_login_form,k_border,p-3,w-50{
-        width: 100% !important;
-    }
 }
 @media only screen and (min-width: 767px) {
-    .mt-3,k_login_form,k_border,p-3{
+    form{
         width: 30% !important;
         margin: 0px auto !important;
+    }
+    .text-decoration-none,fs-6 d-flex,justify-content-center{
+        width: 100% !important;
     }
     .row ,offset-4,col-4,p-4,k_border,mt-5{
         padding: 0px !important;
