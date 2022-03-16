@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <link href="css/login.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Login</title>
@@ -14,24 +16,23 @@
 
 </head>
 <body>
-  <section class="k_section offset-4 col-3 p-4 k_border mt-5">
-      <h3 class="text-center">Easy one tap sign in</h3>
+    <section class="k_section offset-4 col-4 p-4 k_border mt-5 ">
+      <h3 class="text-center k_f">Easy one tap sign in</h3>
 
       <div class="pt-3">
-        <a href="" class="k_logo ">
-          <div class="k_fb k_box ps-5 pt-1 rounded-1">
+        <a href="" class="k_logo k_hover">
+          <div class="k_box ps-5 pt-1 rounded-1">
             <img src="img/icon-facebook.png" class="p-3">
-            <h4 class="fs-6 k_inlineblock">Continue with Facebook</h4>
+            <h4 class="fs-6 d-inline-block">Continue with Facebook</h4>
           </div>
         </a>
       </div>
 
-      <div class="pt-3">
-        <div class="pt-3 ">
-        <a href="" class="k_logo">
+      <div class="pt-2">
+        <a href="" class="k_logo k_hover">
           <div class="k_box ps-5 pt-1 rounded-1">
             <img src="img/icon-google.png" class="p-3">
-            <h4 class="fs-6 k_inlineblock">Continue with Google</h4>
+            <h4 class="fs-6 d-inline-block">Continue with Google</h4>
           </div>
         </a>
       </div>
@@ -40,18 +41,33 @@
       <hr >
       <span class="mt-2 fs-5">Or log in with your email:</span>
       <form class="mt-3">
-        <div class="mb-3 input-group-lg">
-          <input type="email" class="form-control rounded-0 p-2" name="email" id="exampleInputEmail1" placeholder="Email">
+        <div class="mb-3 input-group-lg k_outline">
+          <input type="email" autofocus class="form-control rounded-0 p-2 k_outline" name="email" id="exampleInputEmail1" placeholder="Email">
         </div>
         <div class="mb-3 input-group-lg">
-          <input type="password" class="form-control rounded-0" name="password" id="password" placeholder="Password">
+          <input type="password" class="form-control rounded-0 k_outline" name="password" id="password" placeholder="Password">
         </div>
 
         <a href="#" class="K_text_decoration">Forgate Password?</a>
+
         <div class="d-grid gap-2 mt-3">
           <button type="submit" class="btn btn-primary ">Submit</button>
         </div>
+        <div class="mt-3">
+          <a href="#" class="K_text_decoration fs-5">Don't have an account? Sign Up »</a>
+        </div>
     </form>
-  </section>
+    </section>
+  
+  <footer class="k_footer k_bg2">
+    <div class="form-text text-center fs-6">Terms of Service and Use</div>
+    <div class="text-center pt-5">
+      <a href="" class="k_privacy">Privary Policy</a>|<a href="" class="k_privacy">Do Not Sell My Personal Information</a>
+    </div>
+    <div class="text-center k_bottom mt-4">
+      <p class="m-0">© 2022 Thryv, Inc. All rights reserved.</p>
+      <p class="m-0">YP, the YP logo and all other YP marks contained herein are trademarks of YP LLC and/or YP affiliated companies.</p>
+    </div>
+  </footer>
 </body>
 </html>

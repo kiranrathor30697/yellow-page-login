@@ -1,26 +1,3 @@
-main{
-    height:50px;
-}
-.k_footer{
-    width: 100%;
-    height: 665px;
-    border-top: 1px solid #f4f4f4;
-    margin:0px;
-}
-.k_footertop{
-    height:257px;
-}
-.k_bg1{
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #cccccc;
-}
-.k_claim_img{
-  margin-left:280px;
-  margin-bottom: 145px !important;
-}
-.k_inlineblock{
-    display:inline-block !important;
-}  
 .k_margin{
     margin:50px 20px;
 } 
@@ -41,7 +18,6 @@ main{
 .k_a{
     color:#555 !important;
     font-size: 0.9em;
-    text-decoration: none;
     margin-top:35px;
     font-family: helvetica,arial,sans-serif;
 }
@@ -76,10 +52,7 @@ main{
     font-size:1em;
     text-decoration: none !important;
     padding:5px 5px;
-}
-.k_bottom{
-    
-}
+}   
 .tbdr{
     border:1px dashed #000;
 }
