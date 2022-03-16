@@ -48,7 +48,7 @@
     }
 @media only screen and (max-width: 767px) {
     .w-50,p-0k_box,mt-5,row,offset-3{
-        width: 87% !important;
+        width: 50% !important;
         border:0px;
         offset:none;
         margin: 0px auto !important;
@@ -57,7 +57,15 @@
       body{
         width: 100% !important;
         margin: 0px !important;
-        }
+        }    
+    /*.p-2,k_top{
+        padding: 0px !important;
+    }  */  
+    }     
+@media only screen and (min-width: 767px) {
+    .mt-3,k_login_form{
+        width: 50% !important;
+    }    
     /*.p-2,k_top{
         padding: 0px !important;
     }  */  

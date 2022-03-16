@@ -35,9 +35,18 @@
     }   
 }
 @media only screen and (max-width: 767px) {
-    
-        body{
-        width: 100% !important;
-        margin: 0px !important;
+    body{
+    width: 100% !important;
+    margin: 0px !important;
+    }
+    .row ,offset-4,col-4,p-4,k_border,mt-5{
+        margin: 0px auto !important;
+        padding: 0px !important;
+    }
+}
+@media only screen and (min-width: 767px) {
+    body{
+    width: 50% !important;
+    margin: 0px auto !important;
     }
 }
