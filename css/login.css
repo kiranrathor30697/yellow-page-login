@@ -43,6 +43,9 @@
         margin: 0px auto !important;
         padding: 2px !important;
     }
+    .mt-3,k_login_form,k_border,p-3,w-50{
+        width: 100% !important;
+    }
 }
 @media only screen and (min-width: 767px) {
     body{
