@@ -26,6 +26,7 @@
 }
 .k_bg2{
     background-color: #f7f7f7;
+    width:800px !important;
 }
 .k_box1{
     width:20.5%;
@@ -52,7 +53,7 @@
     font-size:1em;
     text-decoration: none !important;
     padding:5px 5px;
-}   
-.tbdr{
-    border:1px dashed #000;
+}
+.k_footer{
+    width:100% !important;
 }

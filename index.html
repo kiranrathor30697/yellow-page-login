@@ -8,6 +8,7 @@
     
     <link href="css/login.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/signup.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Login</title>
@@ -17,7 +18,29 @@
 </head>
 <body>
     <form>
-      <div class="row  offset-4 col-4 p-4 k_border mt-5">
+      <div class="col-12 col-md-12 col-sm-12 mt-5 k_z_index">
+        <section class="p-2 k_top">
+          <div class="form-text fs-5 mt-5 mb-3">Easy one click sign in.</div>
+          <div class="mb-2">
+              <a href="" class="k_logo text-decoration-none k_hover">
+                <div class=" k_box ps-2 pt-1 rounded-1">
+                  <img src="img/icon-facebook.png" class="p-2" alt="">
+                  <h4 class="fs-6 d-inline">Continue with Facebook</h4>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="" class="k_logo text-decoration-none k_hover">
+                <div class="k_box ps-2 rounded-1">
+                  <img src="img/icon-google.png" class="p-2" alt="">
+                  <h4 class="fs-6  d-inline">Continue with Google</h4>
+                </div>
+              </a>
+            </div>
+            <div class="form-text">We don't post/share without your pession.</div>
+        </section>
+      </div>
+      <!-- <div class="row  offset-4 col-12 p-4 k_border mt-5">
         <div class="col-12">
           <h3 class="text-center k_f">Easy one tap sign in</h3>
         </div>
@@ -52,46 +75,51 @@
         <div class="col-12">
           <span class="mt-2 fs-5">Or log in with your email:</span>
         </div>
-      </div>
+      </div> -->
 
     </form>
       
-      <form class="mt-3 k_login_form">
+    <form class="mt-3 k_login_form">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 col-md-12 col-sm-12">
+            <div class="mb-3 input-group-lg k_outline">
+              <h3 class="d-flex justify-content-center k_f">Easy one tap sign in</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-sm-12">
             <div class="mb-3 input-group-lg k_outline">
               <input type="email" autofocus class="form-control rounded-0 p-2 k_outline" name="email" id="exampleInputEmail1" placeholder="Email">
             </div>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-12 col-sm-12">
             <div class="mb-3 input-group-lg">
               <input type="password" class="form-control rounded-0 k_outline" name="password" id="password" placeholder="Password">
             </div>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-12 col-sm-12">
             <a href="#" class="text-decoration-none d-flex justify-content-center">Forgate Password?</a>
           </div>
         </div>
-        <div class="col-12 p-3">
+        <div class="col-12 p-3 col-md-12 col-sm-12">
           <div class="d-grid gap-2 mt-3">
             <button type="submit" class="btn btn-primary ">Submit</button>
           </div>
         </div>
-        <div class="col-12">
+        <div class="col-12 col-md-12 col-sm-12">
           <div class="mt-3 d-flex justify-content-center">
             <a href="#" class="text-decoration-none fs-6">Don't have an account? Sign Up»</a>
           </div>
         </div>
     </form>
-  
-  <footer class="k_footer k_bg2">
-    <div class="form-text text-center fs-6">Terms of Service and Use</div>
-    <div class="text-center pt-5">
-      <a href="" class="k_privacy">Privary Policy</a>|<a href="" class="k_privacy">Do Not Sell My Personal Information</a>
+
+  <footer class="k_footer k_bg2 border-top mb-5 mt-5">
+    <div class="form-text fs-6 d-flex justify-content-center">Terms of Service and Use</div>
+    <div class="pt-5">
+      <a href="" class="k_privacy d-flex justify-content-center">Privary Policy</a>|<a href="" class="k_privacy d-flex justify-content-center">Do Not Sell My Personal Information</a>
     </div>
-    <div class="text-center k_bottom mt-4">
-      <p class="m-0">© 2022 Thryv, Inc. All rights reserved.</p>
-      <p class="m-0">YP, the YP logo and all other YP marks contained herein are trademarks of YP LLC and/or YP affiliated companies.</p>
+    <div class="k_bottom mt-4 d-flex">
+      <p class="d-flex justify-content-center">© 2022 Thryv, Inc. All rights reserved.</p>
+      <p class="d-flex justify-content-center">YP, the YP logo and all other YP marks contained herein are trademarks of YP LLC and/or YP affiliated companies.</p>
     </div>
   </footer>
 </body>
