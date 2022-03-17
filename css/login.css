@@ -43,6 +43,10 @@
     .k_f,k_heading{
         font-size:20px;
     }
+    .k_img1{
+        width:20px !important;
+        height: 20px !important;
+    }
 }
 @media only screen and (min-width: 301px) and (max-width: 540px) {
     
@@ -55,13 +59,7 @@
     form{
         width: 60% !important;
         margin: 0px auto !important;
-    }/* 
-    .text-decoration-none,fs-6 d-flex,justify-content-center{
-        width: 100% !important;
     }
-    .row ,offset-4,col-4,p-4,k_border,mt-5{
-        padding: 0px !important;
-    } */
 }
 @media only screen and (min-width: 721px) and (max-width: 960px) {
     form{
